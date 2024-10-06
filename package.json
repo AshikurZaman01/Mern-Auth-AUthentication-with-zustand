@@ -1,0 +1,23 @@
+{
+  "name": "user-authetication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Front End && npm run dev",
+    "backEnd": "cd Back End && npm start",
+    "dev": "concurrently \"npm run frontend\" \"npm run backEnd\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "crypto": "^1.0.1",
+    "mailtrap": "^3.4.0",
+    "react-hook-form": "^7.53.0",
+    "react-toastify": "^10.0.5",
+    "zustand": "^5.0.0-rc.2"
+  }
+}
